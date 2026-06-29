@@ -1,0 +1,30 @@
+{
+  "name": "@flomisma/relay-transport",
+  "version": "0.1.0",
+  "description": "Zero-persistence relay protocol — connection lifecycle and message envelope format",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE", "CHANGELOG.md"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flomisma/relay-transport"
+  },
+  "keywords": ["relay", "websocket", "zero-persistence", "transport", "protocol"],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo 'No tests yet'"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
